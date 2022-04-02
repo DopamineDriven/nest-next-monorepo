@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Nest",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2018",
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
+    "noStrictGenericChecks": false,
+    "resolveJsonModule": true
+  }
+}
