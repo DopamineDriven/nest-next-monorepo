@@ -4,7 +4,9 @@
   "main": "index.js",
   "author": "Andrew Ross",
   "license": "MIT",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "eslint-nest.js",
     "eslint-next.js",

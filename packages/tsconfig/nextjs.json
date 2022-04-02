@@ -5,6 +5,8 @@
   "compilerOptions": {
     "jsx": "preserve",
     "noEmit": true,
-    "target": "es5"
-  }
+    "target": "es5",
+    "baseUrl": "."
+  },
+  "include": ["**/*.{ts,tsx,d.ts,js,json,yaml,yml,graphql}"]
 }
