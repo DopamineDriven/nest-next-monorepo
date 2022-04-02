@@ -10,5 +10,7 @@
     "nextjs.json",
     "react-library.json"
   ],
-  "private": true
+  "publishConfig": {
+    "access": "public"
+  }
 }

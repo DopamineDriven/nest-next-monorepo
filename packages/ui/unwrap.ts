@@ -1,4 +1,5 @@
 import Unwrap from "unwrap-react";
+import { DOMAttributes } from "react";
 
 export type IntrinsicComprehensiveConditionalReturned = ReturnType<
   typeof Unwrap.IntrinsicComprehensiveConditional
@@ -12,7 +13,7 @@ export type PickUnwrapTargets<
     : Required<Record<keyof T, T>>;
 };
 
-export const GlobalJSXProps = <
+export const TSXGlobalHelper = <
   T extends IntrinsicComprehensiveConditionalReturned
 >({
   ...props
@@ -20,4 +21,4 @@ export const GlobalJSXProps = <
   ...props
 });
 
-export default GlobalJSXProps({ ...GlobalJSXProps });
+export default TSXGlobalHelper({ ...TSXGlobalHelper });
